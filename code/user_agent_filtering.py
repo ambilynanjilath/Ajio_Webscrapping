@@ -36,7 +36,7 @@ tester = UserAgentTester(
 # Filter user agents from the input file and save the successful ones to the output file
 tester.filter_user_agents(
     user_agents_file='/home/user/Documents/Datahut_Internship/Example_Usage_UserAgentFilter/data/user_agents.txt',
-    output_file='/home/user/Documents/Datahut_Internship/Example_Usage_UserAgentFilter/data/net_user_agents.txt'
+    output_file='/home/user/Documents/Datahut_Internship/Example_Usage_UserAgentFilter/data/filtered_user_agents.txt'
 )
 print("User agents have been filtered and saved to 'filtered_user_agents.txt'")
 
