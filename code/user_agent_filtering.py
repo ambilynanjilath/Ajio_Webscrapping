@@ -6,17 +6,12 @@ by sending HTTP requests and checking their acceptance based on the HTTP status 
 from UserAgentFilter import UserAgentTester
 
 # Define the target URL 
-test_url = 'https://www.net-a-porter.com/en-om/'
+test_url = 'https://www.ajio.com/'
 
 
 # Create an instance of UserAgentTester
 tester = UserAgentTester(
-    test_url=test_url,
-    timeout=30,
-    delay_range=(30,50),
-    proxy= {
-  "https": "scraperapi.retry_404=true.country_code=us.device_type=desktop.session_number=125.keep_headers=true:458fa92f5567092c5d9d9f6e863ed38d@proxy-server.scraperapi.com:8001"
-}
+    test_url=test_url
 )
 
 """
